@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<samples xmlns:xlink="http://www.w3.org/1999/xlink">
+				<group name="Allgemeine Auswertung">
+								<sample name="Übersicht Dinos" href="dinoübersicht.html"/>
+								<sample name="Das Zeitalter der Dinosaurier" href="http://de.wikipedia.org/wiki/Mesozoikum"/>
+								<sample name="Systematik der DInosaurier" href="http://de.wikipedia.org/wiki/Systematik_der_Dinosaurier"/>
+
+
+								
+				</group>
+</samples>

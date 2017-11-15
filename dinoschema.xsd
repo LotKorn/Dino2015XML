@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+				<xs:element name="dinosaurawrier">
+								<xs:complexType>
+												<xs:sequence>
+																<xs:element name="dinosaurier">
+																				<xs:complexType>
+																								<xs:sequence>
+																												<xs:element maxOccurs="unbounded" name="dino" nillable="false" type="dinoTyp"/>
+																								</xs:sequence>
+																				</xs:complexType>
+																</xs:element>
+																<xs:element name="klassen">
+																				<xs:complexType>
+																								<xs:sequence>
+																												<xs:element maxOccurs="unbounded" name="klassenBeschreibung" type="klasseTyp"/>
+																								</xs:sequence>
+																				</xs:complexType>
+																</xs:element>
+																<xs:element name="merkmale">
+																				<xs:complexType>
+																								<xs:sequence>
+																												<xs:element maxOccurs="unbounded" name="nahrung" type="nahrungTyp"/>
+																												<xs:element maxOccurs="unbounded" name="fortbewegung" type="fortbewegungsTyp"/>
+																												<xs:element maxOccurs="unbounded" name="periode" type="periodeTyp"/>
+																								</xs:sequence>
+																				</xs:complexType>
+																</xs:element>
+												</xs:sequence>
+								</xs:complexType>
+				</xs:element>
+				<xs:complexType name="dinoTyp">
+								<xs:sequence>
+												<xs:element maxOccurs="1" minOccurs="1" name="nameDe" nillable="false" type="xs:string"/>
+												<xs:element maxOccurs="1" minOccurs="1" name="nameLat" nillable="false" type="xs:string"/>
+												<xs:element maxOccurs="1" name="größe" type="größeTyp"/>
+												<xs:element name="gewicht" type="gewichtTyp"/>
+												<xs:element maxOccurs="1" name="periode" type="periodeTyp"/>
+												<xs:element maxOccurs="1" name="klasse" type="klasseSuperTyp"/>
+												<xs:element maxOccurs="unbounded" minOccurs="0" name="merkmal" type="xs:string"/>
+												<xs:element maxOccurs="unbounded" minOccurs="0" name="bild" type="bildTyp"/>
+												<xs:element maxOccurs="1" name="beschreibung" type="beschreibungTyp"/>
+												<xs:element maxOccurs="unbounded" name="verbreitung" type="xs:string"/>
+												<xs:element maxOccurs="unbounded" minOccurs="0" name="link" type="xs:string"/>
+								</xs:sequence>
+				</xs:complexType>
+				<xs:complexType name="größeTyp">
+								<xs:all>
+												<xs:element default="0" maxOccurs="1" minOccurs="0" name="höhe" type="xs:float"/>
+												<xs:element default="0" maxOccurs="1" minOccurs="0" name="breite" type="xs:float"/>
+												<xs:element default="0" maxOccurs="1" minOccurs="0" name="länge" type="xs:float"/>
+								</xs:all>
+				</xs:complexType>
+				<xs:complexType name="periodeTyp">
+								<xs:sequence>
+												<xs:element maxOccurs="unbounded" minOccurs="0" name="periodeName" type="periodeName"/>
+												<xs:element maxOccurs="1" minOccurs="0" name="periodeVon" type="periodeZeit"/>
+												<xs:element maxOccurs="1" minOccurs="0" name="periodeBis" type="periodeZeit"/>
+								</xs:sequence>
+				</xs:complexType>
+				<xs:simpleType name="periodeName">
+								<xs:restriction base="xs:string">
+												<xs:enumeration value="Kambrium"/>
+												<xs:enumeration value="Ordovizium"/>
+												<xs:enumeration value="Silur"/>
+												<xs:enumeration value="Devon"/>
+												<xs:enumeration value="Karbon"/>
+												<xs:enumeration value="Perm"/>
+												<xs:enumeration value="Trias"/>
+												<xs:enumeration value="Jura"/>
+												<xs:enumeration value="Kreide"/>
+								</xs:restriction>
+				</xs:simpleType>
+				<xs:simpleType name="periodeZeit">
+								<xs:restriction base="xs:integer">
+												<xs:maxInclusive value="541"/>
+												<xs:minInclusive value="66"/>
+								</xs:restriction>
+				</xs:simpleType>
+				<xs:complexType name="gewichtTyp">
+								<xs:all>
+												<xs:element maxOccurs="1" minOccurs="0" name="min" type="gewichtBasisTyp"/>
+												<xs:element maxOccurs="1" minOccurs="0" name="max" type="gewichtBasisTyp"/>
+								</xs:all>
+				</xs:complexType>
+				<xs:simpleType name="gewichtBasisTyp">
+								<xs:restriction base="xs:float">
+												<xs:minExclusive value="0"/>
+								</xs:restriction>
+				</xs:simpleType>
+				<xs:simpleType name="klasseBasisTyp">
+								<xs:restriction base="xs:string">
+												<xs:enumeration value="Ornithischia"/>
+												<xs:enumeration value="Heterodontosauridae"/>
+												<xs:enumeration value="Stegosauria"/>
+												<xs:enumeration value="Ankylosauria"/>
+												<xs:enumeration value="Pachycephalosauria"/>
+												<xs:enumeration value="Ceratopsia"/>
+												<xs:enumeration value="Ornithopoda"/>
+												<xs:enumeration value="Saurischia"/>
+												<xs:enumeration value="Prosauropoda"/>
+												<xs:enumeration value="Sauropoda"/>
+												<xs:enumeration value="Theropoda"/>
+												<xs:enumeration value="Coelophysoidea"/>
+												<xs:enumeration value="Ceratosauria"/>
+												<xs:enumeration value="Spinosauroidea"/>
+												<xs:enumeration value="Carnosauria"/>
+												<xs:enumeration value="Tyrannosauroidea"/>
+												<xs:enumeration value="Ornithomimosauria"/>
+												<xs:enumeration value="Therizinosauroidea"/>
+												<xs:enumeration value="Alvarezsauroidea"/>
+												<xs:enumeration value="Oviraptorosauria"/>
+												<xs:enumeration value="Troodontidae"/>
+												<xs:enumeration value="Dromaeosauridae"/>
+												<xs:enumeration value="Avialae"/>
+								</xs:restriction>
+				</xs:simpleType>
+				<xs:complexType name="klasseSuperTyp">
+								<xs:sequence>
+												<xs:element name="name" type="klasseBasisTyp" maxOccurs="1" minOccurs="1"/>
+												<xs:element name="fortbewegung" type="fortbewegungsTyp" maxOccurs="1" minOccurs="1"/>
+												<xs:element name="nahrung" type="nahrungTyp" maxOccurs="1" minOccurs="1"/>
+								</xs:sequence>
+				</xs:complexType>
+				<xs:complexType name="klasseTyp">
+								<xs:sequence>
+												<xs:element name="klasse" type="klasseBasisTyp"/>
+												<xs:element name="beschreibung" type="xs:string"/>
+								</xs:sequence>
+				</xs:complexType>
+				<xs:simpleType name="nahrungTyp">
+								<xs:restriction base="xs:string">
+												<xs:enumeration value="Pflanzenfresser"/>
+												<xs:enumeration value="Fleischfresser"/>
+												<xs:enumeration value="Allesfresser"/>
+								</xs:restriction>
+				</xs:simpleType>
+				<xs:simpleType name="fortbewegungsTyp">
+								<xs:restriction base="xs:string">
+												<xs:enumeration value="Zweibeinig"/>
+												<xs:enumeration value="Vierbeinig"/>
+												<xs:enumeration value="Flügel"/>
+												<xs:enumeration value="Sonstiges"/>
+								</xs:restriction>
+				</xs:simpleType>
+				<xs:complexType name="bildTyp">
+								<xs:all>
+												<xs:element name="url" type="xs:string"/>
+												<xs:element name="copyright" type="xs:string"/>
+												<xs:element minOccurs="1" name="typ" type="bildArt"/>
+												<xs:element name="titel" type="xs:string"/>
+												<xs:element name="beschreibung" type="xs:string"/>
+								</xs:all>
+				</xs:complexType>
+				<xs:complexType name="beschreibungTyp">
+								<xs:sequence>
+												<xs:element name="kurzbeschreibung" type="xs:string"/>
+												<xs:element name="texte" type="beschreibungBasisTyp" maxOccurs="unbounded"/>
+								</xs:sequence>
+				</xs:complexType>
+				<xs:complexType name="beschreibungBasisTyp">
+								<xs:all>
+												<xs:element name="titel" type="xs:string"/>
+												<xs:element name="text" type="xs:string"/>
+								</xs:all>
+				</xs:complexType>
+				<xs:simpleType name="bildArt">
+								<xs:restriction base="xs:string">
+												<xs:enumeration value="größe"/>
+												<xs:enumeration value="zeichnung"/>
+												<xs:enumeration value="profil"/>
+												<xs:enumeration value="fußabdruck"/>
+												<xs:enumeration value="skelett"/>
+								</xs:restriction>
+				</xs:simpleType>
+</xs:schema>

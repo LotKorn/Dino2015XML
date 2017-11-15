@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  
+<map:sitemap xmlns:map="http://apache.org/cocoon/sitemap/1.0">
+				<map:components>
+								<map:transformers default="xslt">
+												<map:transformer name="xslt-xalan" src="org.apache.cocoon.transformation.TraxTransformer">
+																<use-request-parameters>true</use-request-parameters>
+																<use-session-parameters>false</use-session-parameters>
+																<use-cookie-parameters>false</use-cookie-parameters>
+																<xslt-processor-role>xalan</xslt-processor-role>
+																<check-includes>true</check-includes>
+												</map:transformer>
+								</map:transformers>
+				</map:components>
+				<map:views/>
+				<map:resources/>
+				<map:action-sets/>
+				<map:pipelines>
+								<map:pipeline>
+												<map:match pattern="">
+																<map:redirect-to uri="welcome"/>
+												</map:match>
+												<map:match pattern="welcome">
+																<map:generate src="start.xml"/>
+																<map:transform src="main.xsl"/>
+																<map:serialize/>
+												</map:match>
+												<map:match pattern="dinoübersicht.html">
+																<map:generate src="dinoxml.xml"/>
+																<map:transform src="dinosuche.xsl"/>
+																<map:serialize type="html"/>
+												</map:match>
+												<map:match pattern="bild.html">
+																<map:generate src="dinoxml.xml"/>
+																<map:transform src="zeitaltersvg.xsl"/>
+																<map:serialize type="html"/>
+												</map:match>
+												<map:match pattern="dinosuche.html">
+																<map:generate src="dinoxml.xml"/>
+																<map:transform src="dinosuche_formular.xsl"/>
+																<map:serialize type="html"/>
+												</map:match>
+												<map:match pattern="dinosuche_ergebnis.html">
+																<map:generate src="dinoxml.xml"/>
+																<map:transform type="xslt-xalan" src="dinosuche.xsl">
+																				<map:parameter name="user-request-parameters" value="true"/>
+																</map:transform>
+																<map:serialize type="html"/>
+												</map:match>
+												<map:match pattern="dinoprofil.html">
+																<map:generate src="dinoxml.xml"/>
+																<map:transform type="xslt-xalan" src="dinoprofil.xsl">
+																				<map:parameter name="user-request-parameters" value="true"/>
+																</map:transform>
+																<map:serialize type="html"/>
+												</map:match>
+												<map:match pattern="**.png">
+																<map:read src="{1}.png" mime-type="png"/>
+												</map:match>
+												<map:match pattern="*.css">
+																<map:read src="{1}.css" mime-type="text/css"/>
+												</map:match>
+								</map:pipeline>
+				</map:pipelines>
+</map:sitemap>

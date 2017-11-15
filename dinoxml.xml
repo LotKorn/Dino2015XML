@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dinosaurawrier xsi:noNamespaceSchemaLocation="dinoschema.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+				<dinosaurier>
+								<dino>
+												<nameDe>Tyrannosaurus</nameDe>
+												<nameLat>Tyrannosaurus rex</nameLat>
+												<größe>
+																<höhe>4</höhe>
+																<breite/>
+																<länge>12.4</länge>
+												</größe>
+												<gewicht>
+																<min>3000</min>
+																<max>6800</max>
+												</gewicht>
+												<periode>
+																<periodeName>Kreide</periodeName>
+																<periodeVon>66</periodeVon>
+																<periodeBis>68</periodeBis>
+												</periode>
+												<klasse>
+																<name>Tyrannosauroidea</name>
+																<fortbewegung>Zweibeinig</fortbewegung>
+																<nahrung>Fleischfresser</nahrung>
+												</klasse>
+												<merkmal>Kleine Gliedmaßen</merkmal>
+												<merkmal>Gigantischer Schädel</merkmal>
+												<bild>
+																<url>http://upload.wikimedia.org/wikipedia/commons/3/33/Senckenberganlage_%28DerHexer%29_2012-05-11_04.jpg</url>
+																<copyright>Wikipedia Commons</copyright>
+																<typ>profil</typ>
+																<titel>Modell vom Tyrannosaurus</titel>
+																<beschreibung>Modell am Naturmuseum Senckenberg; die Haltung entspricht den aktuellen Erkenntnissen</beschreibung>
+												</bild>
+												<bild>
+																<url>http://upload.wikimedia.org/wikipedia/commons/a/a3/Tyrannosaurusscale.png</url>
+																<copyright>Wikipedia Commons</copyright>
+																<typ>größe</typ>
+																<titel>Größenvergleich</titel>
+																<beschreibung>Beinahe 13 Meter lang und 4 Meter Schulterhöhe</beschreibung>
+												</bild>
+												<bild>
+																<url>http://bunteerde.planeterde.de/Members/lutz/tiere-und-natur/t-rex-knochen-mit-geschichte/Fussabdruck_T-Rex.jpg/image</url>
+																<copyright>Bunte Erde</copyright>
+																<typ>fußabdruck</typ>
+																<titel>Fußabdruck</titel>
+																<beschreibung>Fußabdruck vom "T-Rex"</beschreibung>
+												</bild>
+												<bild>
+																<url>http://upload.wikimedia.org/wikipedia/commons/3/33/Stan_the_Trex_at_Manchester_Museum.jpg</url>
+																<copyright>Wikipedia Commons</copyright>
+																<typ>skelett</typ>
+																<titel>Skelettrekonstruktion</titel>
+																<beschreibung>Das Tyrannosaurus-Exemplar „Stan“ im Manchester Museum</beschreibung>
+												</bild>
+												<beschreibung>
+																<kurzbeschreibung>Der größte und bekannteste "Tyrann" der Urzeit</kurzbeschreibung>
+																<texte>
+																				<titel>Großer Kopf mit kräftiger Halsmuskulatur</titel>
+																				<text>Sein Kopf erreichte eine Länge von 1,25 Metern und besaß Ansatzflächen für eine kräftige Beißmuskulatur. Die Knochen des Schädels waren überwiegend lose miteinander verbunden, so dass die Wucht, mit der er seine Zähne in seine Beute schlug, abgefedert wurde. Die Knochen im Oberteil des Schädels waren hingegen verstärkt und unterstützten die Beißkraft (vgl. Nachricht vom Juni 2004).
+
+Die Beißkraft eines erwachsenen Tyrannosaurus lag schätzungsweise bei 35.000 bis 52.000 Newton, was ihn zum kräftigsten Beißer im gesamten Tierreicht macht  und seinen Ruf als "fürchterlichsten Räuber aller Zeiten" bestätigte. (Lediglich das Urzeitkrokodil Deinosuchus riograndensis konnte wahrscheinlich noch kräftiger zubeißen als Tyrannosaurus rex.)
+		
+
+Der Schädel des Tyrannosaurus rex wurde 1,25 Meter und seine Zaähne bis zu 23 Zentimeter lang.
+
+Im Maul des Tyrannosaurus rex saßen bis zu 23 Zentimeter lange, sägeblattartige Zähne.
+
+Sein Hals war kurz und muskulös. Die Halsmuskeln erlaubten es ihm, seinen Kopf mit viel Kraft hin und her zu bewegen oder schnell nach hinten zu ziehen, und so seine Beute mit kräftigen Kopfbewegungen zu zerreißen</text>
+																</texte>
+												</beschreibung>
+												<verbreitung>Nordamerika</verbreitung>
+												<link>http://de.wikipedia.org/wiki/Tyrannosaurus</link>
+												<link>http://www.dinosaurier-interesse.de/web/Saurierarten/Tyrannosaurus.html</link>
+								</dino>
+								<dino>
+												<nameDe>Stegosaurus</nameDe>
+												<nameLat>Stegosaurus armatus</nameLat>
+												<größe>
+																<höhe>4</höhe>
+																<länge>9</länge>
+												</größe>
+												<gewicht>
+																<min>2300</min>
+																<max>4500</max>
+												</gewicht>
+												<periode>
+																<periodeName>Jura</periodeName>
+																<periodeVon>147</periodeVon>
+																<periodeBis>157</periodeBis>
+												</periode>
+												<klasse>
+																<name>Stegosauria</name>
+																<fortbewegung>Vierbeinig</fortbewegung>
+																<nahrung>Pflanzenfresser</nahrung>
+												</klasse>
+												<merkmal>Rückenplatten</merkmal>
+												<merkmal>Schwanzstacheln</merkmal>
+												<bild>
+																<url>http://upload.wikimedia.org/wikipedia/commons/8/8b/Ba%C5%82t%C3%B3w_Park_Jurajski_001.jpg</url>
+																<copyright>Wikipedia Commons</copyright>
+																<typ>profil</typ>
+																<titel>Modell von Stegosaurus</titel>
+																<beschreibung>Modell von Stegosaurus im Bałtów Jurassic Park, Bałtów, Polen</beschreibung>
+												</bild>
+												<bild>
+																<url>http://upload.wikimedia.org/wikipedia/commons/7/73/Stegosaurus_size.png</url>
+																<copyright>Wikipedia Commons</copyright>
+																<typ>größe</typ>
+																<titel>Größenvergleich</titel>
+																<beschreibung>9 Meter Lang, 4 Meter Hoch, möglicherweise bis zu 8 Meter aufrecht Stehend</beschreibung>
+												</bild>
+												<bild>
+																<url>http://palaeo.gly.bris.ac.uk/palaeofiles/fossilgroups/stegosauria/Images/susamnh.JPG</url>
+																<copyright>University of Bristol</copyright>
+																<typ>fußabdruck</typ>
+																<titel>Fußabdruck</titel>
+																<beschreibung>Fossile Fußspuren von Stegosauriden sind extrem selten, vor 1996 war keine einzige bekannt. Einige Forscher vermuten, dass Stegosaurier eher trockene Gebiete besiedelten, und dass deswegen so wenig Spurenfunde aufgetaucht sind.</beschreibung>
+												</bild>
+												<bild>
+																<url>http://upload.wikimedia.org/wikipedia/commons/7/70/Stegosaurus_BW.jpg</url>
+																<copyright>Wikipedia Commons</copyright>
+																<typ>zeichnung</typ>
+																<titel>Künstlerische Darstellung</titel>
+																<beschreibung>Mögliches Aussehen eines Stegosauriers</beschreibung>
+												</bild>
+												<bild>
+																<url>http://upload.wikimedia.org/wikipedia/commons/9/99/Paleontology_Exhibit%2C_Stegosaurus-_Armored_Dinosaur.jpg</url>
+																<copyright>Wikipedia Commons</copyright>
+																<typ>skelett</typ>
+																<titel>Skelettrekonstruktion</titel>
+																<beschreibung>Skelettrekonstruktion von Stegosaurus, vermutlich aufgenommen in den 1930er Jahren, mit alternierend angeordneten, stehenden Rückenplatten im National Museum of Natural History in Washington, D. C.</beschreibung>
+												</bild>
+												<beschreibung>
+																<kurzbeschreibung>Ein mittelgroßer, vierbeiniger Pflanzenfresser. Besonders bekannt durch seine Rückenplatten.</kurzbeschreibung>
+																<texte>
+																				<titel>Allgemeine Informationen</titel>
+																				<text>Dieser bis 9 Meter lange Dinosaurier ist wohl der bekannteste unter den Stegosauriern. 1877 veröffentlichte Othniel Charles Marsh (amerikanischer Paläontologe) zum ersten Mal die Beschreibung der Überreste, die in den Steinbrüchen von Colorado und Wyoming gefunden wurden. Die Beschreibung eines vollständigen Skeletts gelang ihm aber erst 1891.
+
+Der Stegosaurus besaß breite Rückenplatten, von denen die größte bis über 60 cm hoch werden konnte. Da sein Skelett an den Wirbeln der Beckengegend und der Schwanzbasis lange, nach oben gerichtete Fortsätze aufweist, die wahrscheinlich als Ansatzstelle für starke Rückenmuskeln dienten, vermuten einige Wissenschaftler, dass dieser Stegosaurus in der Lage war, sich am Baum abgestützt auf die Hinterbeine zu erheben, um weiter höher hängende Blätter abzuweiden.
+
+Der Kopf des Stegosaurus war etwa 40 cm lang und beherbergte das Gehirn von der Größe einer Wallnuss.</text>
+																</texte>
+												</beschreibung>
+												<verbreitung>Nordamerika</verbreitung>
+												<verbreitung>Europa</verbreitung>
+												<link>http://www.dinosaurier-interesse.de/web/Saurierarten/Stegosaurus.html</link>
+												<link>http://de.wikipedia.org/wiki/Stegosauria</link>
+								</dino>
+								<dino>
+												<nameDe>Triceratops</nameDe>
+												<nameLat>Triceratops</nameLat>
+												<größe>
+																<höhe>3</höhe>
+																<länge>9</länge>
+												</größe>
+												<gewicht>
+																<min>6000</min>
+																<max>12000</max>
+												</gewicht>
+												<periode>
+																<periodeName>Kreide</periodeName>
+																<periodeVon>66</periodeVon>
+																<periodeBis>68</periodeBis>
+												</periode>
+												<klasse>
+																<name>Ceratopsia</name>
+																<fortbewegung>Vierbeinig</fortbewegung>
+																<nahrung>Pflanzenfresser</nahrung>
+												</klasse>
+												<merkmal>Dreihorn-Schädel</merkmal>
+												<bild>
+																<url>http://upload.wikimedia.org/wikipedia/commons/c/c7/Triceratops_-_JuraPark_Baltow.JPG</url>
+																<copyright>Wikipedia Commons</copyright>
+																<typ>profil</typ>
+																<titel>Modell von Stegosaurus</titel>
+																<beschreibung>Rekonstruktion eines Stegosauriers im Jurassic Park Baltkow</beschreibung>
+												</bild>
+												<bild>
+																<url>http://upload.wikimedia.org/wikipedia/commons/7/72/Eotriceratops_scale.png</url>
+																<copyright>Wikipedia Commons</copyright>
+																<typ>größe</typ>
+																<titel>Größenvergleich</titel>
+																<beschreibung>Größenverhältnisse von Triceratops, Eotriceratops und Mensch</beschreibung>
+												</bild>
+												<bild>
+																<url>http://www.dinocasts.com/images/products/triceratops_foot2_Dinocasts.com.jpg</url>
+																<copyright>Dinocasts.com</copyright>
+																<typ>fußabdruck</typ>
+																<titel>Fußknochen</titel>
+																<beschreibung>80cm lange Fußknochen eines Triceratops.</beschreibung>
+												</bild>
+												<bild>
+																<url>http://upload.wikimedia.org/wikipedia/commons/4/4e/Triceratops_liveDB.jpg</url>
+																<copyright>Wikipedia Commons</copyright>
+																<typ>zeichnung</typ>
+																<titel>Künstlerische Darstellung</titel>
+																<beschreibung>Lebendrekonstruktion von Triceratops auf Grundlage des Senckenberger Skeletts</beschreibung>
+												</bild>
+												<bild>
+																<url>http://upload.wikimedia.org/wikipedia/commons/6/6b/Triceratops_AMNH_01.jpg</url>
+																<copyright>Wikipedia Commons</copyright>
+																<typ>skelett</typ>
+																<titel>Skelettrekonstruktion</titel>
+																<beschreibung>Montiertes Skelett von Triceratops: die abgeknickten Vorderbeine mit den annähernd waagrecht gehaltenen Oberarmknochen dürften nicht der tatsächlichen Körperhaltung entsprechen.</beschreibung>
+												</bild>
+												<beschreibung>
+																<kurzbeschreibung>Ein mittelgroßer, vierbeiniger Pflanzenfresser mit drei Hörnern auf dem Kopf  und Kopfschild</kurzbeschreibung>
+																<texte>
+																				<titel>Allgemeine Informationen</titel>
+																				<text>Als im Jahre 1887 Georges L. Cannon in der Nähe von Denver (Colorado, USA) ein paar seltsam geformte Hörner entdeckte, glaubte der Paläontologe O. C. Marsh zunächst daran, dass es sich hierbei um die Reste einer bis dato unbekannten Bisonart handle und nannte diese Art Bison alticornis.
+
+Im Mai 1888 machte John B. Hatcher, ein enger Mitarbeiter von Marsh, einen anderen bemerkenswerten Fund: In Montana entdeckte er unter verschiedenen Knochenfragmenten auch Teile eines Schädels mit zwei Hörnern, die den Hörnern des Bison alticornis auffallend glichen. Diese Schädelfragmente wurden einer neuen Dinosaurierart mit Namen Ceratops montanus zugeschrieben.
+
+Inzwischen hatte man aber auch in Wyoming neue Entdeckungen gemacht: Hier wurde ein Schädel mit gleich drei Hörnern gefunden, der den beiden erst genannten Funden ebenfalls auffällig ähnlich war. So hielt die neue Spezies Triceratops horridus Einzug in die Welt der Wissenschaft, während Bison alticornis gleichzeitig aus ihr verschwand.
+
+Der Triceratops gehört zur Familie der Ceratopsidae, die wiederum zur Unterordnung Ceratopsia gezählt wird. Er gilt als der bekannteste Ceratopsia und war mit einer Länge von 9 Metern der größte und mit einem Gewicht von etwa 10 Tonnen der schwerste unter ihnen. Zudem scheint er auch der am häufigsten vertretene gewesen zu sein.
+
+Wie alle Vertreter seiner Familie besaß auch Triceratops einen kräftigen, massigen und gedrungenen Körper, der auf vier kräftig gebauten Beinen ruhte. Seine breiten Füße verliehen ihm große Standfestigkeit.
+
+
+Triceratops-Skelett
+		
+
+Der Name "Triceratops" heißt übersetzt: "Dreihorngesicht", da er ein dickes kurzes Horn auf der Nase und zwei über 1 Meter lange, schmalere Hörner oberhalb der Augen besaß.
+
+Sein Nackenschild erreichte eine Länge von über 2 Metern und besaß im Gegensatz zu den meisten anderen Ceratopiern keine Knochenfenster. Das weist darauf hin, dass dieser massiv gebaute Nackenschild in erster Linie zur Verteidigung eingesetzt wurde und nicht ausschließlich als Ansatzfläche für die Kaumuskulatur diente oder zur Regulierung der Körpertemperatur (vgl. Nachricht von Dez. 1998) sowie der visuellen Kommunikation untereinander (vgl. Nachricht von März 2006). Bei einigen Arten traten am Rand des Nackenschilds zudem noch zugespitzte Knochenhöcker auf.</text>
+																</texte>
+												</beschreibung>
+												<verbreitung>Nordamerika</verbreitung>
+												<link>http://www.dinosaurier-interesse.de/web/Saurierarten/Triceratops.html</link>
+												<link>http://de.wikipedia.org/wiki/Triceratops</link>
+								</dino>
+								<dino>
+												<nameDe>Diplodocus</nameDe>
+												<nameLat>Diplodocus</nameLat>
+												<größe>
+																<höhe>4</höhe>
+																<länge>27</länge>
+												</größe>
+												<gewicht>
+																<min>10000</min>
+																<max>16000</max>
+												</gewicht>
+												<periode>
+																<periodeName>Jura</periodeName>
+																<periodeVon>145</periodeVon>
+																<periodeBis>157</periodeBis>
+												</periode>
+												<klasse>
+																<name>Sauropoda</name>
+																<fortbewegung>Vierbeinig</fortbewegung>
+																<nahrung>Pflanzenfresser</nahrung>
+												</klasse>
+												<merkmal>Langer Schwanz und Hals</merkmal>
+												<bild>
+																<url>http://upload.wikimedia.org/wikipedia/commons/2/22/Basel_-_Bruderholz_Dinosaurier1.jpg</url>
+																<copyright>Wikipedia Commons</copyright>
+																<typ>profil</typ>
+																<titel>Modell eines Diplodocus</titel>
+																<beschreibung>Modell eines Diplodocus</beschreibung>
+												</bild>
+												<bild>
+																<url>http://upload.wikimedia.org/wikipedia/commons/5/5f/Diplodocus_size_comparison.png</url>
+																<copyright>Wikipedia Commons</copyright>
+																<typ>größe</typ>
+																<titel>Größenvergleich</titel>
+																<beschreibung>Skelettdiagramm mit Menschen als Maßstab</beschreibung>
+												</bild>
+												<bild>
+																<url>https://c2.staticflickr.com/8/7039/6973900017_fda17f0ed2_z.jpg</url>
+																<copyright>Flickr.com</copyright>
+																<typ>fußabdruck</typ>
+																<titel>Fußknochen</titel>
+																<beschreibung>Fußknochen eines Diplodocus</beschreibung>
+												</bild>
+												<bild>
+																<url>http://upload.wikimedia.org/wikipedia/commons/8/87/DiplodocusDB.jpg</url>
+																<copyright>Wikipedia Commons</copyright>
+																<typ>zeichnung</typ>
+																<titel>Künstlerische Darstellung</titel>
+																<beschreibung>Künstlerische Darstellung eines Diplodocus Paares</beschreibung>
+												</bild>
+												<bild>
+																<url>http://upload.wikimedia.org/wikipedia/commons/5/51/Berlin_Diplodocus.jpg</url>
+																<copyright>Wikipedia Commons</copyright>
+																<typ>skelett</typ>
+																<titel>Skelettrekonstruktion</titel>
+																<beschreibung>Skelettabguss von Diplodocus im Berliner Hauptbahnhof.</beschreibung>
+												</bild>
+												<beschreibung>
+																<kurzbeschreibung>Ein gigantischer Sauropide der allein durch seine Größe Schutz vor Angreifern hatte</kurzbeschreibung>
+																<texte>
+																				<titel>Allgemeine Informationen</titel>
+																				<text>Diplodocus („Doppelbalken“) ist eine Gattung von sauropoden Dinosauriern aus dem Oberjura (Kimmeridgium bis Tithonium) des westlichen Nordamerikas.
+
+Der Gattungsname bezieht sich auf die V-förmigen Chevron-Knochen auf der Unterseite der Schwanzwirbelsäule. Anfangs hielt man die V-förmigen Fortsätze für eine Autapomorphie von Diplodocus, sie sind seit der Erstbeschreibung jedoch auch bei anderen Diplodociden entdeckt worden.
+
+Diplodocus war eine der häufigeren Gattungen der ca. 156 bis 147 Millionen Jahre alten Oberen Morrison-Formation und gehörte einer Fauna an, die von riesigen Sauropoden wie Camarasaurus, Barosaurus, Apatosaurus und Brachiosaurus dominiert war. Die Dinosauriergattung ist eine der am einfachsten zu identifizierenden und galt für viele Jahre als diejenige mit der größten Körperlänge. Seine enorme Größe mag vor Raubsauriern wie Allosaurus und Ceratosaurus Schutz geboten haben.</text>
+																</texte>
+												</beschreibung>
+												<verbreitung>Nordamerika</verbreitung>
+												<link>http://de.wikipedia.org/wiki/Diplodocus</link>
+								</dino>
+								<dino>
+												<nameDe>Velociraptor</nameDe>
+												<nameLat>Velociraptor mongoliensis</nameLat>
+												<größe>
+																<höhe>1</höhe>
+																<länge>2</länge>
+												</größe>
+												<gewicht>
+																<min>7</min>
+																<max>15</max>
+												</gewicht>
+												<periode>
+																<periodeName>Kreide</periodeName>
+																<periodeVon>76</periodeVon>
+																<periodeBis>85</periodeBis>
+												</periode>
+												<klasse>
+																<name>Dromaeosauridae</name>
+																<fortbewegung>Zweibeinig</fortbewegung>
+																<nahrung>Fleischfresser</nahrung>
+												</klasse>
+												<merkmal>Federn</merkmal>
+												<merkmal>Kralle am Fuß</merkmal>
+												<bild>
+																<url>http://www.skyenimals.com/data/animals/d/dinosaur/dinosaur_Velociraptor/FULLSIZE-velociraptor.jpg</url>
+																<copyright>Brookfield Zoo</copyright>
+																<typ>profil</typ>
+																<titel>Modell vom Velociraptor</titel>
+																<beschreibung>Rekonstruktion eines Velociraptors im Brookfield Zoo Dinosaurs Alive!</beschreibung>
+												</bild>
+												<bild>
+																<url>http://upload.wikimedia.org/wikipedia/commons/1/15/Vraptor_Scale.svg</url>
+																<copyright>Wikipedia Commons</copyright>
+																<typ>größe</typ>
+																<titel>Größenvergleich</titel>
+																<beschreibung>Velociraptor im Größenvergleich mit einem Menschen</beschreibung>
+												</bild>
+												<bild>
+																<url>http://www.angelfire.com/mi/dinosaurs/images/casts/velociraptor_foot.jpg</url>
+																<copyright>Dinocasts.com</copyright>
+																<typ>fußabdruck</typ>
+																<titel>Fußknochen</titel>
+																<beschreibung>Replikat eines Velociraptor Fußes.</beschreibung>
+												</bild>
+												<bild>
+																<url>http://upload.wikimedia.org/wikipedia/commons/c/c2/Velociraptor_BW.jpg</url>
+																<copyright>Wikipedia Commons</copyright>
+																<typ>zeichnung</typ>
+																<titel>Künstlerische Darstellung</titel>
+																<beschreibung>Illustration von Velociraptor mongoliensis</beschreibung>
+												</bild>
+												<bild>
+																<url>http://upload.wikimedia.org/wikipedia/commons/e/e9/Velociraptor_mount.jpg</url>
+																<copyright>Wikipedia Commons</copyright>
+																<typ>skelett</typ>
+																<titel>Skelettrekonstruktion</titel>
+																<beschreibung>Skelettrekonstruktion von Velociraptor</beschreibung>
+												</bild>
+												<beschreibung>
+																<kurzbeschreibung>Ein mittelgroßer gefiederten Fleischfresser mit einem langen, steifen Schwanz und einer auffällig vergrößerten, sichelartigen Kralle an der zweiten Zehe des Hinterfußes.</kurzbeschreibung>
+																<texte>
+																				<titel>Allgemeine Informationen</titel>
+																				<text>Velociraptor war 1,5 bis 2 Meter lang, ungefähr einen Meter hoch und wog zwischen 7 und 15 Kilogramm. Er fraß Fleisch, lief auf zwei Beinen und konnte über eine kurze Entfernung möglicherweise eine Geschwindigkeit von 60 Kilometern pro Stunde erreichen. An den Händen, die aus drei Fingern bestanden, saßen Krallen. Sein Schwanz war steif und diente dazu, beim Laufen oder während eines Angriffs das Gleichgewicht zu halten und ihm schnelle Wendemanöver zu ermöglichen.
+
+In seiner langen, flachen Schnauze saßen 80 sehr scharfe, gebogene Zähne, von denen einige über 2,5 Zentimeter lang waren. Sein 18 Zentimeter langer Kopf saß auf einem s-förmigen Hals. Das Gehirn des Velociraptors war im Vergleich zu seinem Körper recht groß, so dass er als einer der intelligentesten und somit auch gefährlichsten Dinosaurier gilt.
+
+Seine Beine waren lang und schlank und besaßen am Fuß vier Zehen mit Krallen. Der mittlere Zeh hatte eine 9 Zentimeter lange, sichelförmige Kralle, von der lange Zeit angenommen wurde, dass sie bei der Jagd oder einem anderen Kampf todbringend eingesetzt wurde. Im Jahr 2005 konnte in einem Experiment jedoch nachgewiesen werden, dass die Kralle nicht zum Aufschlitzen der Beute taugte. Sie drang beim Zuschlagen lediglich 4 Zentimeter in die Haut ein und hinterließ kleine runde Stiche. Daher wird angenommen, dass die Kralle in erster Linie dem Festhalten an der Beute diente, während Velociraptor diese mit seinen scharfen Zähnen attackierte.</text>
+																</texte>
+												</beschreibung>
+												<verbreitung>Asien</verbreitung>
+												<link>http://www.dinosaurier-interesse.de/web/Saurierarten/Velociraptor.html</link>
+												<link>http://de.wikipedia.org/wiki/Velociraptor</link>
+								</dino>
+								<dino>
+												<nameDe>Plateosaurus</nameDe>
+												<nameLat>Plateosaurus gracilis</nameLat>
+												<größe>
+																<höhe>2.3</höhe>
+																<länge>10</länge>
+												</größe>
+												<gewicht>
+																<min>600</min>
+																<max>4000</max>
+												</gewicht>
+												<periode>
+																<periodeName>Trias</periodeName>
+																<periodeVon>201</periodeVon>
+																<periodeBis>217</periodeBis>
+												</periode>
+												<klasse>
+																<name>Prosauropoda</name>
+																<fortbewegung>Zweibeinig</fortbewegung>
+																<nahrung>Pflanzenfresser</nahrung>
+												</klasse>
+												<merkmal>Große Entwicklungsplastizität</merkmal>
+												<bild>
+																<url>http://upload.wikimedia.org/wikipedia/commons/9/99/Sellosaurus.jpg</url>
+																<copyright>Wikipedia Commons</copyright>
+																<typ>zeichnung</typ>
+																<titel>Zeichnung vom Plateosaurus</titel>
+																<beschreibung>Lebendrekonstruktion von P. gracilis, früher als Sellosaurus bekannt</beschreibung>
+												</bild>
+												<bild>
+																<url>http://upload.wikimedia.org/wikipedia/commons/6/63/Human-plateosaurus_size_comparison%28V2%29.png</url>
+																<copyright>Wikipedia Commons</copyright>
+																<typ>größe</typ>
+																<titel>Größenvergleich</titel>
+																<beschreibung>Plateosaurus im Größenvergleich mit einem Menschen. Ein erwachsener Plateosaurus konnte zwischen 5 und 10 Metern lang sein</beschreibung>
+												</bild>
+												<bild>
+																<url>http://upload.wikimedia.org/wikipedia/commons/9/92/Plateosaurus_MSF23.jpg</url>
+																<copyright>Dinocasts.com</copyright>
+																<typ>fußabdruck</typ>
+																<titel>Skelettfund</titel>
+																<beschreibung>P. engelhardti Exemplarnummer MSF 23 im Sauriermuseum Frick, das vollständigste von Frick stammende Plateosaurus-Skelett.</beschreibung>
+												</bild>
+												<bild>
+																<url>http://upload.wikimedia.org/wikipedia/commons/0/02/DSC01708_Scheletro_dinosauro_-_Museo_di_storia_naturale%2C_Milano_-_Foto_di_G._Dall%27Orto_-_20-12-2006.jpg</url>
+																<copyright>Wikipedia Commons</copyright>
+																<typ>skelett</typ>
+																<titel>Skelettrekonstruktion</titel>
+																<beschreibung>Abguss eines P. engelhardti-Skeletts in der heute als korrekt angesehenen bipeden Haltung, im Museo di Storia Naturale in Mailand</beschreibung>
+												</bild>
+												<beschreibung>
+																<kurzbeschreibung>Einer der ältesten Dinosaurier aus dem Trias, der ein sehr stark variierende Körpermaße hatte.</kurzbeschreibung>
+																<texte>
+																				<titel>Allgemeine Informationen</titel>
+																				<text>Plateosaurus gehört zu einer Gruppe früher pflanzenfressender Echsenbeckendinosaurier, die traditionell als Prosauropoden bezeichnet wurden. Heute sprechen die meisten Forscher statt von „Prosauropoden“ von „basalen Sauropodomorpha“, also Sauropodomorphen, die im Stammbaum unterhalb der Sauropoda stehen. Plateosaurus zeigt einen für zweibeinig laufende Pflanzenfresser typischen Bauplan: ein kleiner Schädel sitzt auf einem langen, biegsamen Hals aus zehn Halswirbeln, der Rumpf ist gedrungen und geht in einen langen, flexiblen Schwanz aus über 40 Wirbeln über. Die Arme von Plateosaurus gehören zu den kürzesten, die bei „Prosauropoden“ vorkamen, waren aber kräftig, und die Hand an das Greifen großer Objekte angepasst. Der Schultergürtel war schmal (in Skelettmontagen und Zeichnungen oft falsch rekonstruiert), mit sich in der Mitte berührenden Schlüsselbeinen, wie sie auch von anderen „Prosauropoden“ bekannt sind. Die Beine waren lang und wurden senkrecht unter dem Körper gehalten, und der Fuß war digitigrad. Plateosaurus war also ein Zehengänger und an zügiges zweibeiniges Laufen angepasst.</text>
+																</texte>
+												</beschreibung>
+												<verbreitung>Europa</verbreitung>
+												<link>http://de.wikipedia.org/wiki/Plateosaurus</link>
+								</dino>
+				</dinosaurier>
+				<klassen>
+								<klassenBeschreibung>
+												<klasse>Ornithischia</klasse>
+												<beschreibung>Vogelbeckendinosaurier: diverse Gruppe bipeder oder quadrupeder Pflanzenfresser</beschreibung>
+								</klassenBeschreibung>
+								<klassenBeschreibung>
+												<klasse>Heterodontosauridae</klasse>
+												<beschreibung>Echsen mit verschiedenartigen Zähnen</beschreibung>
+								</klassenBeschreibung>
+								<klassenBeschreibung>
+												<klasse>Stegosauria</klasse>
+												<beschreibung>Vierbeinige, pflanzenfressende Dinosaurier, die durch eine Doppelreihe von knöchernen Platten entlang des Rückens charakterisiert waren</beschreibung>
+								</klassenBeschreibung>
+								<klassenBeschreibung>
+												<klasse>Ankylosauria</klasse>
+												<beschreibung>Vierbeinige, pflanzenfressende Dinosaurier, die durch eine Panzerung aus Knochenplatten charakterisiert waren</beschreibung>
+								</klassenBeschreibung>
+								<klassenBeschreibung>
+												<klasse>Pachycephalosauria</klasse>
+												<beschreibung>Zweibeinige, vermutlich pflanzenfressende Dinosaurier, die durch ein auffallend verdicktes Schädeldach charakterisiert waren</beschreibung>
+								</klassenBeschreibung>
+								<klassenBeschreibung>
+												<klasse>Ceratopsia</klasse>
+												<beschreibung>Artenreiche Gruppe pflanzenfressender Vogelbeckensaurier, die häufig durch einen Nackenschild oder Hörner charakterisiert waren</beschreibung>
+								</klassenBeschreibung>
+								<klassenBeschreibung>
+												<klasse>Ornithopoda</klasse>
+												<beschreibung>Zweibeinige, sekundär auch vierbeinige ungepanzerte Dinosaurier die ihre Nahrung kauen konnte</beschreibung>
+								</klassenBeschreibung>
+								<klassenBeschreibung>
+												<klasse>Saurischia</klasse>
+												<beschreibung>Echsenbeckensaurier und diverse Untergruppen</beschreibung>
+								</klassenBeschreibung>
+								<klassenBeschreibung>
+												<klasse>Prosauropoda</klasse>
+												<beschreibung>Zweibeinige und vierbeinige Pflanzenfressende weltweit verbreitete, dominierende Dinosaurierspezies </beschreibung>
+								</klassenBeschreibung>
+								<klassenBeschreibung>
+												<klasse>Sauropoda</klasse>
+												<beschreibung>Artenreichste, größste und am weitesten verbreitete Gruppe pflanzenfressender Dinosaurier</beschreibung>
+								</klassenBeschreibung>
+								<klassenBeschreibung>
+												<klasse>Theropoda</klasse>
+												<beschreibung>Große Untergruppe zweibeinige meist fleischfressender Dinosaurier</beschreibung>
+								</klassenBeschreibung>
+								<klassenBeschreibung>
+												<klasse>Coelophysoidea</klasse>
+												<beschreibung> Schlanke, grazil gebaute, räuberisch lebende Tiere</beschreibung>
+								</klassenBeschreibung>
+								<klassenBeschreibung>
+												<klasse>Ceratosauria</klasse>
+												<beschreibung>Kleine bis große, größtenteils zweibeinig laufende Fleischfresser, die teils komplexe Schädelornamente wie Kopfhörner aufwiesen</beschreibung>
+								</klassenBeschreibung>
+								<klassenBeschreibung>
+												<klasse>Spinosauroidea</klasse>
+												<beschreibung>Zweibeinige Dinosaurier, mit langen, versteiften Schwänzen</beschreibung>
+								</klassenBeschreibung>
+								<klassenBeschreibung>
+												<klasse>Carnosauria</klasse>
+												<beschreibung>Große Gruppe fleischfressende Dinosaurier</beschreibung>
+								</klassenBeschreibung>
+								<klassenBeschreibung>
+												<klasse>Tyrannosauroidea</klasse>
+												<beschreibung>Dominierende Prädatoren auf der Nordhalbkugel mit zurückentwickelten Armen</beschreibung>
+								</klassenBeschreibung>
+								<klassenBeschreibung>
+												<klasse>Ornithomimosauria</klasse>
+												<beschreibung>Vogelnachahmerechsen die schlank und leicht gebaut waren und schnell laufen konnten</beschreibung>
+								</klassenBeschreibung>
+								<klassenBeschreibung>
+												<klasse>Therizinosauroidea</klasse>
+												<beschreibung>Zweibeinige Dinosaurier mit großen und sehr langen Vorderkrallen</beschreibung>
+								</klassenBeschreibung>
+								<klassenBeschreibung>
+												<klasse>Alvarezsauroidea</klasse>
+												<beschreibung>Vogelähnliche, möglicherweise Federbehaftete Dinosaurier</beschreibung>
+								</klassenBeschreibung>
+								<klassenBeschreibung>
+												<klasse>Oviraptorosauria</klasse>
+												<beschreibung>Vogelähnliche, allesfressende federbehaftete Dinosaurier mit kurzem Kopf und Zahnlosem Kiefer</beschreibung>
+								</klassenBeschreibung>
+								<klassenBeschreibung>
+												<klasse>Troodontidae</klasse>
+												<beschreibung>Kleine Dinosaurier aus Ostasien mit vergrößerter sichelförmiger zweiter Kralle der drei Fußzehen</beschreibung>
+								</klassenBeschreibung>
+								<klassenBeschreibung>
+												<klasse>Dromaeosauridae</klasse>
+												<beschreibung>Kleine bis mittelgroße, zweibeinig laufende Fleischfresser, die wahrscheinlich mit den Vögeln nah verwandt waren</beschreibung>
+								</klassenBeschreibung>
+								<klassenBeschreibung>
+												<klasse>Avialae</klasse>
+												<beschreibung>Vogelähnliche, flugfähige Dinosaurier</beschreibung>
+								</klassenBeschreibung>
+				</klassen>
+				<merkmale>
+								<nahrung>Pflanzenfresser</nahrung>
+								<nahrung>Fleischfresser</nahrung>
+								<nahrung>Allesfresser</nahrung>
+								<fortbewegung>Zweibeinig</fortbewegung>
+								<fortbewegung>Vierbeinig</fortbewegung>
+								<fortbewegung>Flügel</fortbewegung>
+								<fortbewegung>Sonstiges</fortbewegung>
+								<periode>
+												<periodeName>Kreide</periodeName>
+												<periodeVon>66</periodeVon>
+												<periodeBis>145</periodeBis>
+								</periode>
+								<periode>
+												<periodeName>Jura</periodeName>
+												<periodeVon>145</periodeVon>
+												<periodeBis>201</periodeBis>
+								</periode>
+								<periode>
+												<periodeName>Trias</periodeName>
+												<periodeVon>201</periodeVon>
+												<periodeBis>252</periodeBis>
+								</periode>
+								<periode>
+												<periodeName>Perm</periodeName>
+												<periodeVon>252</periodeVon>
+												<periodeBis>298</periodeBis>
+								</periode><!--Ab hier eigentlich nicht mehr benötigt, da Dinosaurier erst ab dem Karbon existieren
+
+								<periode>
+												<periodeName>Karbon</periodeName>
+												<periodeVon>298</periodeVon>
+												<periodeBis>358</periodeBis>
+								</periode>
+								
+								<periode>
+												<periodeName>Devon</periodeName>
+												<periodeVon>358</periodeVon>
+												<periodeBis>419</periodeBis>
+								</periode>
+								<periode>
+												<periodeName>Silur</periodeName>
+												<periodeVon>419</periodeVon>
+												<periodeBis>443</periodeBis>
+								</periode>
+								<periode>
+												<periodeName>Ordovizium</periodeName>
+												<periodeVon>443</periodeVon>
+												<periodeBis>485</periodeBis>
+								</periode>
+								<periode>
+												<periodeName>Kambrium</periodeName>
+												<periodeVon>485</periodeVon>
+												<periodeBis>541</periodeBis>
+								</periode>
+-->
+				</merkmale>
+</dinosaurawrier>
